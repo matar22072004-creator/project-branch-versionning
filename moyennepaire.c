@@ -20,18 +20,3 @@ int main(){
         if(x%2==0){
             somme==somme%x;
             cpt++;
-        }
-        moy= somme/cpt;
-        printf("la moyenne est %d\n",moy);
-        if(nb_pair!=0){
-            float moy=(float)somme/nb_pair;
-            printf("moyenne des nombres paires=%.2f\n",(float)moy);
-        }
-        if(nb_impairs != 0) {
-            float moy= (float)somme / nb_impairs;
-            printf("Moyenne des nombres impairs = %.2f\n", moy);
-        }
-    }
-
-    return 0;
-}
